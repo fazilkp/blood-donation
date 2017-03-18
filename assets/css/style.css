@@ -1,0 +1,123 @@
+.navbar{
+  margin-bottom: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p,a,div{
+  font-family: montserrat;
+}
+
+
+
+*[role="form"] {
+    /*max-width: 530px;*/
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 0.3em;
+}
+
+*[role="form"] h2 {
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
+
+
+#map{
+  height: 500px;
+}
+
+
+.search_pincode_div{
+  display: none;
+}
+
+.home_page_carousel .item{
+  padding-top: 50px;
+padding-bottom: 50px;
+}
+.home_page_carousel .item h1{
+  text-shadow: 2px 2px 5px rgba(43, 42, 42, 0.32);
+  color: #000;
+  padding-bottom: 40px;
+}
+.home_page_carousel .item p{
+
+  color: #000;
+  padding-bottom: 30px;
+}
+.home_page_carousel .item p:last-child{
+   margin-bottom: 50px;
+}
+.home_item_wrapper{
+  width: 90%;
+  margin: 0 auto;
+
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 4px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.home_item_wrapper:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.home_item_wrapper .content{
+  text-align: justify;
+  height: 165px;
+  border-bottom: 1px solid #f3f3f3;
+}
+.home_item_wrapper .btn{
+      background-color: #2bbbad;
+      color:#
+}
+
+.btn{
+      background-color: #2bbbad;
+      color:#fff;
+      border: 0;
+      transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.btn:hover{
+      background-color: #2bbbad;
+      color:#fff;
+      border: 0;
+      box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+}
+.freepik{
+  font-size: 5px;
+}
+.jumbotron.home{
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+}
+#carousel-example-generic{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  left: 0;
+}
+
+.fact_wrapper{
+  width: 85%;
+  margin: 0 auto;
+}
+
+
+.result_item_wrapper {
+    width: 100%;
+    position: relative;
+}
+.result_item {
+    float: left;
+    margin-right: 50px;
+    padding: 20px;
+    border: 1px solid #f3f3f3;
+    text-align: center;
+}
