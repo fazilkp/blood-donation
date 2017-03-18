@@ -15,7 +15,7 @@
             <div id="map">
             </div>
 
-            <form class="form-horizontal" role="form">
+            <form class="form-horizontal" role="form" action = result.php>
 
               <div class="form-group">
                   <label for="bgrp" class="col-sm-3 control-label">Blood Group</label>

@@ -10,7 +10,7 @@
   <div class="col-md-8 col-md-offset-2">
 
 
-    <form class="js-form" role="form" id="donate_form" action = "connect.php">
+    <form class="js-form" role="form" id="donate_form" action = "connect.php" method="post">
                 <h2>Donate Blood</h2>
                 <div class="form-group clearfix">
                     <label for="firstName" class="col-sm-3 control-label">Full Name</label>

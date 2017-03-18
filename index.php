@@ -68,7 +68,7 @@
           <div class="home_item_wrapper">
             <h2>Facts</h2>
             <p class="content">Facts regarding the process of blood transfusion.There are several of them that will blow your mind! </p>
-            <p><a class="btn btn-default" href="eligibility.php" role="button">View details »</a></p>
+            <p><a class="btn btn-default" href="facts.php" role="button">View details »</a></p>
           </div>
         </div>
       </div>
