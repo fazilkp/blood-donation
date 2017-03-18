@@ -81,7 +81,7 @@ var config = {
 
   }
 
-
+// firebase ends
 
   // map
 
