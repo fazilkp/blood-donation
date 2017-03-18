@@ -44,7 +44,7 @@
 
      <div class="form-group">
          <div class="col-sm-9 col-sm-offset-3">
-             <button type="submit" class="btn btn-primary btn-block">Search</button>
+             <button type="" class="btn btn-primary btn-block search_btn">Search</button>
          </div>
      </div>
 
