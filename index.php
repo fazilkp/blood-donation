@@ -25,7 +25,7 @@
             <div class="item">
               <h1>Search Blood</h1>
               <p>Tears of a mother can not save her child. But YOUR BLOOD CAN!. C'mon, we know you have got it in you. Donate Blood! Save Lives!</p>
-              <p><a class="btn btn-primary btn-lg" href="donate.php" role="button">Donate Now! »</a></p>
+              <p><a class="btn btn-primary btn-lg" href="search.php" role="button">Search Now! »</a></p>
             </div>
 
 

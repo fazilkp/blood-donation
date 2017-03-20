@@ -34,7 +34,7 @@
                 <div class="form-group clearfix">
                     <label for="bgrp" class="col-sm-3 control-label">Blood Group</label>
                     <div class="col-sm-9">
-                        <select id="bgrp" class="form-control">
+                        <select id="bgrp"  name="blood_grp" class="form-control">
                           <option value="AP">A +ve</option>
                           <option value="BP">B +ve</option>
                           <option value="OP">O +ve</option>
@@ -46,7 +46,7 @@
                         </select>
                     </div>
                 </div> <!-- /.form-group -->
-                <div class="form-group clearfix">
+                <!-- <div class="form-group clearfix">
                     <label for="gender" class="control-label col-sm-3">Gender</label>
                     <div class="col-sm-6">
                         <div class="row">
@@ -65,16 +65,26 @@
                     </div>
                 </div> <!-- /.form-group -->
                 <div class="form-group clearfix">
+                    <label for="bgrp" class="col-sm-3 control-label">Blood Group</label>
+                    <div class="col-sm-9">
+                        <select id="gender"  name="gender" class="form-control">
+                          <option value="m">Male</option>
+                          <option value="f">Female</option>
+                        </select>
+                    </div>
+                  </div>
+                  <!--/.form-group -->
+                <div class="form-group clearfix">
                     <label for="mNo" class="col-sm-3 control-label">Mobile Number</label>
                     <div class="col-sm-9">
-                        <input type="number" id="mNo" placeholder="Mobile Number" class="form-control" autofocus>
+                        <input type="number" id="phone_no" placeholder="phone_no" name="phone_no" class="form-control" autofocus>
                         <span class="help-block">Add country Code Eg: 918123456789</span>
                     </div>
                 </div>
                 <div class="form-group clearfix">
                     <label for="pincode" class="col-sm-3 control-label">Pincode</label>
                     <div class="col-sm-9">
-                        <input type="number" id="pincode" placeholder="Pincode" class="form-control" autofocus>
+                        <input type="number" id="pincode" placeholder="Pincode" name="pincode" class="form-control" autofocus>
                         <span class="help-block">Enter your pincode</span>
                     </div>
                 </div>
