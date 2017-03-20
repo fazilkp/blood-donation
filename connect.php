@@ -1,49 +1,35 @@
+<?php include'header.php';
 
+$host="localhost"; // Host name
+$username="root"; // Mysql username
+$password=""; // Mysql password
+$db_name="blood"; // Database name
+$tbl_name="data"; // Table name
 
-<?php include'header.php';?>
-if( $_POST )
-{
-  $con = mysqli_connect("localhost","root","");
-
-  if (!$con)
-  {
-    die('Could not connect: ' . mysqli_error());
-  }
-
-  mysqli_select_db("blood", $con);
-
-  $users_name = $_POST['name'];
-  echo $users_name;
-  $users_email = $_POST['email'];
-  echo $users_email;
-  $users_age = $_POST['age'];
-  echo $users_age;
-  $users_bgrp = $_POST['blood_grp'];
-  echo $users_bgrp;
-  $users_gender = $_POST['gender'];
-  echo $users_gender;
-  $users_mNo = $_POST['phone_no'];
-  echo $users_mNo;
-  $users_pincode = $_POST['pincode'];
-  echo $users_pincode;
-
-
-  $articleid = $_GET['id'];
-  if( ! is_numeric($articleid) )
-    die('invalid article id');
-
-  $query = "INSERT INTO `data`(`userId`, `name`, `email`, `age`, `blood_grp`, `gender`, `phone_no`, `pincode`) VALUES ('2','fazil','fazil.amigo@gmail.com','26','BP','Male','919544550791','676306')";
-
-
-
-
-
-  mysqli_query($query);
-
-
-
-  mysqli_close($con);
-
-  // echo " <h2>Thank you for your Comment!</h2> ";
+// Connect to server and select database.
+// mysql_connect("$host", "$username", "$password")or die("cannot connect");
+// mysql_select_db("$db_name")or die("cannot select DB");
+$link = mysqli_connect("$host", "$username", "$password")or die("cannot connect");
+    mysqli_select_db($link, $db_name)or die("cannot select DB");
+// Get values from form
+$name=$_POST['name'];
+$email=$_POST['email'];
+$age=$_POST['age'];
+$blood_grp=$_POST['blood_grp'];
+$gender=$_POST['gender'];
+$phone_no=$_POST['phone_no'];
+$pincode=$_POST['pincode'];
+// Insert data into mysql
+$sql="INSERT INTO `data`(`name`, `email`, `age`, `blood_grp`, `gender`, `phone_no`, `pincode`) VALUES ('$name', '$email', '$age', '$blood_grp', '$gender', '$phone_no', '$pincode')";
+$result=$link->query($sql);
+// if successfully insert data into database, displays message "Successful".
+if($result){
+    echo "Successful";
+    echo "<BR>";
+    header("location: donate.php");
+} else {
+    echo "ERROR";
 }
-<?php include'footer.php';?>
+// close connection
+mysqli_close($link);
+include'footer.php';?>
