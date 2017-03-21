@@ -1,6 +1,6 @@
 
 
-// 
+//
 // // firebase
 //
 // var lengthOfArray = this.lengthOf;
@@ -104,7 +104,7 @@
              var lng = event.latLng.lng();
              var latlng = ''+lat+','+lng+'';
              var url = 'https://maps.googleapis.com/maps/api/geocode/json?latlng='+latlng+'&key=AIzaSyDyAn0b7enEaVz1zVojwb2-b9nB-AFo8GU';
-             //console.log(url);
+             console.log(url);
              getPin(url);
 
          });
@@ -120,7 +120,7 @@
     $.getJSON( url, function( data ) {
 
       var pin = data.results[0].address_components[data.results[0].address_components.length - 1].long_name;
-      //console.log(data.results[0].address_components[data.results[0].address_components.length - 1].long_name);
+      // console.log(data.results[0].address_components[data.results[0].address_components.length - 1].long_name);
       $("#pincode_search").val(pin);
 
   });
@@ -132,3 +132,7 @@
   function setLength(lenn){
     curLength = lenn;
   }
+
+
+
+// fetch from db
