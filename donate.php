@@ -68,8 +68,8 @@
                     <label for="bgrp" class="col-sm-3 control-label">Blood Group</label>
                     <div class="col-sm-9">
                         <select id="gender"  name="gender" class="form-control">
-                          <option value="m">Male</option>
-                          <option value="f">Female</option>
+                          <option value="male">Male</option>
+                          <option value="female">Female</option>
                         </select>
                     </div>
                   </div>
