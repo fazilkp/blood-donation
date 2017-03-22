@@ -110,11 +110,11 @@ transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
 
-.result_item_wrapper {
+#result_item_wrapper {
     width: 100%;
     position: relative;
 }
-.result_item {
+#result_item {
     float: left;
     margin-right: 50px;
     padding: 20px;

@@ -7,8 +7,6 @@ $db_name="blood"; // Database name
 $tbl_name="data"; // Table name
 
 // Connect to server and select database.
-// mysql_connect("$host", "$username", "$password")or die("cannot connect");
-// mysql_select_db("$db_name")or die("cannot select DB");
 $link = mysqli_connect("$host", "$username", "$password")or die("cannot connect");
     mysqli_select_db($link, $db_name)or die("cannot select DB");
 // Get values from form
@@ -26,7 +24,7 @@ $result=$link->query($sql);
 if($result){
     echo "Successful";
     echo "<BR>";
-    header("location: donate.php");
+    // header("location: donate.php");
 } else {
     echo "ERROR";
 }

@@ -11,7 +11,7 @@
   <div class="col-md-12">
 
             <div class="result_item_wrapper">
-              <div class="result_item">
+              <div class="result_item" id='result_item'>
                 <h3>Muhammed Faheem</h3>
                 <p>Male</p>
                 <h4>O+ve</h4>
@@ -21,7 +21,7 @@
                 <p>676306</p>
               </div>
 
-              <div class="result_item">
+              <div class="result_item" id='result_item'>
                 <h3>Muhammed Fazil</h3>
                 <p>Male</p>
                 <h4>B+ve</h4>
@@ -31,7 +31,7 @@
                 <p>676306</p>
               </div>
 
-              <div class="result_item">
+              <div class="result_item" id='result_item'>
                 <h3>Ahammed Yaseen</h3>
                 <p>Male</p>
                 <h4>AB+ve</h4>

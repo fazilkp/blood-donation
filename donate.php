@@ -35,14 +35,14 @@
                     <label for="bgrp" class="col-sm-3 control-label">Blood Group</label>
                     <div class="col-sm-9">
                         <select id="bgrp"  name="blood_grp" class="form-control">
-                          <option value="AP">A +ve</option>
-                          <option value="BP">B +ve</option>
-                          <option value="OP">O +ve</option>
-                          <option value="ABP">AB +ve</option>
-                          <option value="AN">A -ve</option>
-                          <option value="BN">B -ve</option>
-                          <option value="ON">O -ve</option>
-                          <option value="ABN">AB -ve</option>
+                          <option value="A+VE">A +ve</option>
+                          <option value="B+VE">B +ve</option>
+                          <option value="O+VE">O +ve</option>
+                          <option value="AB+VE">AB +ve</option>
+                          <option value="A-VE">A -ve</option>
+                          <option value="B-VE">B -ve</option>
+                          <option value="O-VE">O -ve</option>
+                          <option value="AB-VE">AB -ve</option>
                         </select>
                     </div>
                 </div> <!-- /.form-group -->
