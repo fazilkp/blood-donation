@@ -24,18 +24,30 @@ $search2=$_POST['search2'];
 $sql="SELECT * FROM `data` WHERE `blood_grp`='$search1' AND `pincode`='$search2'";
 $result=$link->query($sql);
 // if successfully insert data into database, displays message "Successful".
-while($row = mysqli_fetch_array($result))
+while($r = mysqli_fetch_array($result))
 {
+   echo"<div class='jumbotron'>";
+        echo"<div class='container'>";
+          echo"<h1>Donate Blood</h1>";
+          echo"<p>Tears of a mother can not save her child. But YOUR BLOOD CAN!. C'mon, we know you have got it in you. Donate Blood! Save Lives!</p>";
+        echo"</div>";
+   echo"</div>";
+   echo"<div class='container'>";
+   echo"<div class='row'>";
+  
+   echo"<div class='container'>";
+   echo"<div class='row'>";
+   echo"<div class='col-md-12'>";
    echo "<div id='result_item_wrapper'>";
    echo"<div id='result_item'>";
   //  echo "<form action='result.php' method='post'>";
-   echo "<h3>" . $row['name'] . "</h3>";
-   echo "<p>" . $row['email'] . "</p>";
-   echo "<h4>" . $row['blood_grp'] . "</h4>";
-   echo "<p>" . $row['age'] . "</p>";
-   echo "<p>" . $row['gender'] . "</p>";
-   echo "<p>" . $row['phone_no'] . "</p>";
-   echo "<p>" . $row['pincode'] . "</p>";
+   echo "<h3>" . $r['name'] . "</h3>";
+   echo "<p>" . $r['email'] . "</p>";
+   echo "<h4>" . $r['blood_grp'] . "</h4>";
+   echo "<p>" . $r['age'] . "</p>";
+   echo "<p>" . $r['gender'] . "</p>";
+   echo "<p>" . $r['phone_no'] . "</p>";
+   echo "<p>" . $r['pincode'] . "</p>";
   //  echo "<input type='submit' value='Submit'>";
   //  echo "</form>";
    echo "</div>";
