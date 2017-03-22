@@ -21,14 +21,14 @@
                   <label for="bgrp" class="col-sm-3 control-label">Blood Group</label>
                   <div class="col-sm-9">
                       <select id="brgp" class="form-control" name="search1">
-                        <option value="AP">A +ve</option>
-                        <option value="BP">B +ve</option>
-                        <option value="OP">O +ve</option>
-                        <option value="ABP">AB +ve</option>
-                        <option value="AN">A -ve</option>
-                        <option value="BN">B -ve</option>
-                        <option value="ON">O -ve</option>
-                        <option value="ABN">AB -ve</option>
+                        <option value="A+ve">A +ve</option>
+                        <option value="B+ve">B +ve</option>
+                        <option value="O+ve">O +ve</option>
+                        <option value="AB+ve">AB +ve</option>
+                        <option value="A-ve">A -ve</option>
+                        <option value="B-ve">B -ve</option>
+                        <option value="O-ve">O -ve</option>
+                        <option value="AB-ve">AB -ve</option>
                       </select>
                   </div>
                 </div>
