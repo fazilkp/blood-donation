@@ -34,7 +34,7 @@ while($r = mysqli_fetch_array($result))
    echo"</div>";
    echo"<div class='container'>";
    echo"<div class='row'>";
-  
+
    echo"<div class='container'>";
    echo"<div class='row'>";
    echo"<div class='col-md-12'>";

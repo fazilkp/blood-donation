@@ -27,10 +27,13 @@ if($result){
          echo"<h1>Successful</h1>";
          echo"<p>You Have successfully registered!!</p>";
        echo"</div>";
+       echo "</div";
         // header("location: donate.php");
 } else {
     echo "ERROR";
 }
 // close connection
 mysqli_close($link);
-include'footer.php';?>
+?>
+
+<?php include'footer.php'; ?>
