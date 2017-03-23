@@ -22,9 +22,12 @@ $sql="INSERT INTO `data`(`name`, `email`, `age`, `blood_grp`, `gender`, `phone_n
 $result=$link->query($sql);
 // if successfully insert data into database, displays message "Successful".
 if($result){
-    echo "Successful";
-    echo "<BR>";
-    // header("location: donate.php");
+    echo"<div class='jumbotron'>";
+       echo"<div class='container'>";
+         echo"<h1>Successful</h1>";
+         echo"<p>You Have successfully registered!!</p>";
+       echo"</div>";
+        // header("location: donate.php");
 } else {
     echo "ERROR";
 }
